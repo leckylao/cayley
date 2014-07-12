@@ -1,0 +1,50 @@
+{
+	"ImportPath": "github.com/google/cayley",
+	"GoVersion": "go1.3",
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/go.net/html",
+			"Comment": "null-137",
+			"Rev": "335bcad0b70a3ba61b9951992a418c9176a73fd4"
+		},
+		{
+			"ImportPath": "code.google.com/p/snappy-go/snappy",
+			"Comment": "null-15",
+			"Rev": "12e4b4183793ac4b061921e7980845e750679fd0"
+		},
+		{
+			"ImportPath": "github.com/badgerodon/peg",
+			"Rev": "9e5f7f4d07ca576562618c23e8abadda278b684f"
+		},
+		{
+			"ImportPath": "github.com/barakmich/glog",
+			"Rev": "fafcb6128a8a2e6360ff034091434d547397d54a"
+		},
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Rev": "7deadb6844d2c6ff1dfb812eaa439b87cdaedf20"
+		},
+		{
+			"ImportPath": "github.com/petar/GoLLRB/llrb",
+			"Rev": "53be0d36a84c2a886ca057d34b6aa4468df9ccb4"
+		},
+		{
+			"ImportPath": "github.com/robertkrimen/otto",
+			"Rev": "dea31a3d392779af358ec41f77a07fcc7e9d04ba"
+		},
+		{
+			"ImportPath": "github.com/russross/blackfriday",
+			"Comment": "v1.1-132-gc7617b0",
+			"Rev": "c7617b05ad8da2825e1b2d311622bf3472101624"
+		},
+		{
+			"ImportPath": "github.com/syndtr/goleveldb/leveldb",
+			"Rev": "c8d98d4b550672501c9eb3bf851c934b97144e78"
+		},
+		{
+			"ImportPath": "labix.org/v2/mgo",
+			"Comment": "287",
+			"Rev": "gustavo@niemeyer.net-20140501184651-975yyw9ipld92pji"
+		}
+	]
+}
