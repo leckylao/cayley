@@ -37,7 +37,7 @@ var databasePath = flag.String("dbpath", "/tmp/testdb", "Path to the database.")
 var databaseBackend = flag.String("db", "mem", "Database Backend.")
 var host = flag.String("host", "0.0.0.0", "Host to listen on (defaults to all).")
 var loadSize = flag.Int("load_size", 10000, "Size of triplesets to load")
-var port = flag.String("port", "3000", "Port to listen on.")
+var port = flag.String("port", os.Getenv("PORT"), "Port to listen on.")
 var readOnly = flag.Bool("read_only", false, "Disable writing via HTTP.")
 var gremlinTimeout = flag.Int("gremlin_timeout", 30, "Number of seconds until an individual query times out.")
 
